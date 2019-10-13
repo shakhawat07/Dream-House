@@ -1,0 +1,84 @@
+body{
+	background: url('o.jpg');
+	
+}
+header{
+	background: url('p.jpg');
+	height: 100px;
+	color: black;
+	padding: 10px;
+	font-size: 40px;
+	line-height: 5px;
+    font-style: italic;	
+	text-align: center;
+	text-shadow: 5px 5px 10px #EDDA74,6px 6px 11px rgb(150, 0, 0);
+    border-radius: 20px;
+	
+	
+	
+}
+.quote{
+	height: 200px; 
+	background: url("g1.jpg") center;
+	text-align: center;
+	color:#96281B;
+	font-size: 30px;
+	font-style: italic;
+	padding-top: 1px;
+	padding-bottom: 20px;
+	margin-top: 30px;
+	border-radius: 20px;
+    	
+}
+ul{
+   margin-top: 2px;
+   padding: 0px;
+   list-style: none;
+}
+
+ul li{
+	float: left;
+	width: 215px;
+	height: 40px;
+	margin-right: 5px;
+	background-color: black;
+	opacity: .9;
+	line-height: 35px;
+	text-align: center;
+	font-size: 20px;
+    color: #EDDA74;
+	
+}
+
+ul li:hover{
+    background-color: #8A0A0A;
+}
+ul li a:link , a:visited{
+	text-decoration: none;
+	color: #EDDA74;
+}
+ul li ul li{
+	display: none;
+}
+ul li:hover ul li{
+	display: block;
+}
+ul li ul li a:link , a:visited{
+	text-decoration: none;
+	color: #EDDA74;
+}
+.search{
+	float: right;
+	width: 300px;
+	padding-top: 6px;
+	
+}
+.post_body{
+	color: #EDDA74;
+}
+.post_body a:link ,a:visited{
+
+
+font-size: 24px;
+
+}

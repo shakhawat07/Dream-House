@@ -1,0 +1,34 @@
+body{
+	background: url('g.jpg');
+	
+}
+header{
+	background: url('p.jpg');
+	height: 100px;
+	color: black;
+	padding: 10px;
+	font-size: 30px;
+	line-height: 5px;
+    font-style: italic;	
+	text-align: center;
+	text-shadow: 5px 5px 10px #EDDA74,6px 6px 11px rgb(150, 0, 0);
+    
+}
+aside{
+	float:left;
+	height: 1500px;
+	background: url('p.jpg');
+	width: 200px;
+	color: black;
+	padding: 10px;
+	font-size: 15px;
+	line-height: 20px;
+    font-style: italic;	
+	text-align: center;
+	text-shadow: 5px 5px 10px #EDDA74,6px 6px 11px rgb(150, 0, 0);
+   
+}
+aside a:link , a:visited{
+color: black;
+line-height: 20px;
+}
